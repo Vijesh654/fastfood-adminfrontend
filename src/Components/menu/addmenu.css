@@ -1,0 +1,106 @@
+.addmenu-page{
+    position: fixed;
+    z-index: 50;
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9e9b9b58;
+  backdrop-filter: blur(1.5px);
+}
+.menu-header {
+  position: relative;
+  padding-right: 40px; 
+}
+.menu-header h2{
+    text-align: center;
+}
+.menu-btn{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.addmenu-crossicon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.addimage-img{
+   width:150px;
+  height: 100px;
+  margin-top: 10px;
+  border: 2px solid black,
+}
+.menu-container {
+  max-width: 700px;
+  width:500px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.menu-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.menu-form input[type="text"],
+.menu-form input[type="file"] {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.menu-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-form button:hover {
+  background-color: #0056b3;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.menu-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.menu-title-input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
